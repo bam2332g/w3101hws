@@ -3,6 +3,8 @@
 
   var BallFollower = function BallFollower(start, swaps) {
     // IMPLEMENT YOUR SOLUTION WITHIN THIS FUNCTION
+    this.start = start;
+    this.swaps = swaps;
     var ballPosition = start;
     var swapList = swaps;
     BallFollower.prototype.swap = function() {
