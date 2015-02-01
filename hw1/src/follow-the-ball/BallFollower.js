@@ -5,7 +5,7 @@
     // IMPLEMENT YOUR SOLUTION WITHIN THIS FUNCTION
     var ballPosition = start;
     var swapList = swaps;
-    function swap(swapList) {
+    BallFollower.prototype.swap = function() {
         var index;
         for (index = 0; index < swapList.length; ++index) {
             if (swapList[index][0] === ballPosition) {
